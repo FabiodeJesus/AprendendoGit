@@ -1,13 +1,22 @@
 Hello Word
 
 Criar repositório git: 
-git init (pra colocar no git)
-git status (verificar estado de arquivos)
-git add . (adiciona todos arquivos da pasta de uma vez)
-git add <NomeDoArquivo.txt> (adiciona um determinado arquivo)
-git add <NomeDoArquivo.txt> && git add NomeDoArquivo2.txt (adiciona mais de um arquivo não todos)
-git commit -m "<menssagem>" (Comentario para se achar)
-git remote (joga o repositorio para o web)
-git push (joga novos arquivos ou alterações para o git)
 
-git pull origin <branch> ou git pull origin <branch raiz>
+Comandos para inicializar o git na pasta:
+{
+	git init (pra colocar no git)
+	git remote (joga o repositorio para o web)
+}
+
+Comandos para subir os arquivos para o github:
+{
+	git status (verificar estado de arquivos)
+	git pull origin <branch> ou git pull origin <branch raiz>
+
+	git add . (adiciona todos arquivos da pasta de uma vez)
+	git add <NomeDoArquivo.txt> (adiciona um determinado arquivo)
+	git add <NomeDoArquivo.txt> && git add NomeDoArquivo2.txt (adiciona mais de um arquivo não todos)
+	git commit -m "<menssagem>" (Comentario para se achar)
+	git push origin <branch> (joga novos arquivos ou alterações para o git)
+	git clone (copiar pastas)
+}
