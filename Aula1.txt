@@ -1,0 +1,11 @@
+Hello Word
+
+Criar repositório git: 
+git init (pra colocar no git)
+git status (verificar estado de arquivos)
+git add . (adiciona todos arquivos da pasta de uma vez)
+git add NomeDoArquivo.txt (adiciona um determinado arquivo)
+git add NomeDoArquivo.txt && git add NomeDoArquivo2.txt (adiciona mais de um arquivo não todos)
+git commit
+git remote (
+git push
